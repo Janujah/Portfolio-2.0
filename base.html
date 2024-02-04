@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-    <head>
+    <head class="darkmode">
         <title>Title</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
@@ -21,7 +21,7 @@
 
     </head>
 
-    <body>
+    <body class="darkmode">
         <header>
           <nav class="navbar navbar-expand-lg bg-body-tertiary" style="justify-content: space-between;">
             <div class="container-fluid">
@@ -35,13 +35,16 @@
                     <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about me.html">About Me</a>
+                    <a class="nav-link active" aria-current="page" href="about me.html"><i class="fa-solid fa-user" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Project.html">Projects</a>
+                    <a class="nav-link active" aria-current="page" href="Project.html"><i class="fa-solid fa-list-check" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="contact.html"><i class="fa-solid fa-address-book" style="color: #000000;"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <button onclick="darkMode()"><i class="fa-solid fa-circle-half-stroke" style="color: #000000;"></i></button>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#"></a>
@@ -60,7 +63,7 @@
         <main>
        
         </main>
-        <footer>
+        
             <!-- Footer -->
 <footer class="bg-body-tertiary text-center">
     <!-- Grid container -->
@@ -101,7 +104,10 @@
   
       <!-- Section: Form -->
       <section class="">
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST">           
+          <div class="search" style="width: 500px; margin: auto;">
+            <input type="hidden" name="access_key" value="3a5acfc4-8c08-43ee-8ac7-0e2c015c58b9">
+            <input type="hidden" name="apikey" value="3a5acfc4-8c08-43ee-8ac7-0e2c015c58b9">
           <!--Grid row-->
           <div class="row d-flex justify-content-center">
             <!--Grid column-->
@@ -116,7 +122,7 @@
             <div class="col-md-5 col-12">
               <!-- Email input -->
               <div data-mdb-input-init class="form-outline mb-4">
-                <input type="email" id="form5Example24" class="form-control" />
+                <input name="email" type="email" id="form5Example24" class="form-control" />
                 <!-- <label class="form-label" for="form5Example24">Email address</label> -->
               </div>
             </div>
@@ -134,7 +140,7 @@
           <!--Grid row-->
         </form>
     </section>
-      <section class="mb-4">
+      <section class="mb-4" style="color: #000000;">
         <p>
         To connect with me just drop your E-mail above.
         </p>
@@ -143,12 +149,12 @@
     </div>
   
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);color: #000000;">
       ©  2024 All rights Reserved
       <a class="text-reset fw-bold" href="index.html">@Janu</a>
     </div>
+    <script src="main.js"></script>
     <!-- Copyright -->
-  
   <!-- Footer -->
         </footer>
         <!-- Bootstrap JavaScript Libraries -->

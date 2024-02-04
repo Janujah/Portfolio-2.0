@@ -59,9 +59,13 @@ nav img{
  .lj{
     font-size: 50px;
 }
-.search{
-    text-align: center;
+.darkmode{
+    background-color: hsl(215, 28%, 17%);
+     color: aliceblue; 
 }
+/* .search{
+    text-align: center;
+} */
 .CM{
     border-radius: 10px;
 }
@@ -79,7 +83,7 @@ button{
     padding-bottom: 5px;
     
 }
-@media (max-width:890px){
+@media (max-width:810px){
 
 }
 

@@ -32,16 +32,19 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about me.html">About Me</a>
+                    <a class="nav-link active" aria-current="page" href="about me.html"><i class="fa-solid fa-user" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Project.html">Projects</a>
+                    <a class="nav-link active" aria-current="page" href="Project.html"><i class="fa-solid fa-list-check" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="contact.html"><i class="fa-solid fa-address-book" style="color: #000000;"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <button onclick="darkMode()" style="border-radius: 40px;background-color: transparent; "><i class="fa-solid fa-circle-half-stroke" style="color: #000000;"></i></button>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#"></a>
@@ -96,97 +99,99 @@
                 </div>
              </div>
         </main>
-        <footer>
-            <!-- Footer -->
-<footer class="bg-body-tertiary text-center">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-medium"></i
-        ></a>
-  
-        <!-- Google -->
-        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-  
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>E-mail Address</strong>
+        
+        <footer class="bg-body-tertiary text-center">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-medium"></i
+              ></a>
+        
+              <!-- Google -->
+              <!-- <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-google"></i
+              ></a> -->
+        
+              <!-- Instagram -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+        
+              <!-- Github -->
+              <!-- <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-github"></i
+              ></a> -->
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Form -->
+            <section class="">
+              <form action="https://api.web3forms.com/submit" method="POST">           
+                <div class="search" style="width: 500px; margin: auto;">
+                  <input type="hidden" name="access_key" value="3a5acfc4-8c08-43ee-8ac7-0e2c015c58b9">
+                  <input type="hidden" name="apikey" value="3a5acfc4-8c08-43ee-8ac7-0e2c015c58b9">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>E-mail Address</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <input name="email" type="email" id="form5Example24" class="form-control" />
+                      <!-- <label class="form-label" for="form5Example24">Email address</label> -->
+                    </div>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+                      Connect
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+          </section>
+            <section class="mb-4" style="color: #000000;">
+              <p>
+              To connect with me just drop your E-mail above.
               </p>
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div data-mdb-input-init class="form-outline mb-4">
-                <input type="email" id="form5Example24" class="form-control" />
-                <!-- <label class="form-label" for="form5Example24">Email address</label> -->
-              </div>
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-auto">
-              <!-- Submit button -->
-              <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
-                Connect
-              </button>
-            </div>
-            <!--Grid column-->
+            </section>
+        
           </div>
-          <!--Grid row-->
-        </form>
-    </section>
-      <section class="mb-4">
-        <p>
-        To connect with me just drop your E-mail above.
-        </p>
-      </section>
-  
-    </div>
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-      ©  2024 All rights Reserved
-      <a class="text-reset fw-bold" href="index.html">@Janu</a>
-    </div>
-    <!-- Copyright -->
-  
-  <!-- Footer -->
-        </footer>
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);color: #000000;">
+            ©  2024 All rights Reserved
+            <a class="text-reset fw-bold" href="index.html">@Janu</a>
+          </div>
+          <script src="main.js"></script>
+          <!-- Copyright -->
+        <!-- Footer -->
+              </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

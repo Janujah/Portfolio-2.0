@@ -53,6 +53,7 @@ nav img{
 .nav{
     display: flex;
 }
+
 .img2{
     width: 500px;
     height: 560px;
@@ -83,6 +84,10 @@ button{
     padding-top: 5px;
     padding-bottom: 5px;
     
+}
+.darkmode{
+    background-color: #1f2937;
+    color: aliceblue;
 }
 
 @media (max-width:890px){

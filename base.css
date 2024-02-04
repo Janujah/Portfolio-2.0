@@ -8,6 +8,10 @@ img{
     height: 50px;
     
 }
+.darkmode{
+    background-color: hsl(215, 28%, 17%);
+     /* color: aliceblue;  */
+}
 body{
     padding: 50px;
     position: relative;;
