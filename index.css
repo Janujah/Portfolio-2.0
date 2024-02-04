@@ -62,9 +62,10 @@ nav img{
 
 }
 .pro{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     margin-top: 75px;
+    border-radius: 500px;
 }
 .grid{
     display: grid;

@@ -23,18 +23,39 @@
 
     <body>
         <header>
-            <nav>
-                <div class="nav"> 
-                    <img src="Black_and_White_Minimalist_Professional_Initial_Logo-removebg-preview.png" alt="LJ">  
-                <h3>Janu</h3>
-                </div>
-                 <ul>
-                    <li><a href="index.html">Home</a></li> 
-                    <li><a href="about me.html">About Me</a></li>
-                    <li><a href="Project.html">Projects</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                 </ul>
-             </nav>       
+          <nav class="navbar navbar-expand-lg bg-body-tertiary" style="justify-content: space-between;">
+            <div class="container-fluid">
+              <a class="navbar-brand"><img src="Black_and_White_Minimalist_Professional_Initial_Logo-removebg-preview.png" alt="LJ"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about me.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Project.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  
+                </span>
+              </div>
+            </div>
+          </nav>
          </header>
         <main>
             <p class="head"><b>My Projects</b></p>
@@ -44,7 +65,7 @@
      <div class="all">
      <button class="b1">All</button>&nbsp&nbsp<button class="b2">Web Design</button>
      <br><br>
-     <div class="container text-center">
+     <!-- <div class="container text-center">
         <div class="row">
           <div class="col">
             <div class="card" style="width: 18rem;">
@@ -77,7 +98,9 @@
               </div>
           </div>
         </div>
-      </div>
+      </div> -->
+
+
         </main>
         <footer>
             <!-- Footer -->
@@ -188,5 +211,6 @@
 
         initMDB({ Input });
         </script>
+
     </body>
 </html>

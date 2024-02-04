@@ -12,10 +12,10 @@ body{
     padding: 50px;
     position: relative;;
 }
-nav{
+/* navbar{
     display: flex;
     justify-content: space-between;
-}
+} */
 nav ul{
     display: flex;
     list-style: none;
